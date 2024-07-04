@@ -20,11 +20,11 @@
         <p>Berdaya Bersama</p>
     </div>
     <div class="link row">
-        <a href=/><h4>Home</h4></a>
-        <a href="/profile"><h4>Tentang Kami</h4></a>
-        <a href="/#Program"><h4>Program</h4></a>
+        <a href=home.php><h4>Home</h4></a>
+        <a href="profile.php"><h4>Tentang Kami</h4></a>
+        <a href="home.php/#Program"><h4>Program</h4></a>
         <a href="/articles"><h4>Artikel</h4></a>
         <h4>Gallery</h4>
-        <a href="/#regis"><h4>Jadi Donatur</h4></a>
+        <a href="home.php/#regis"><h4>Jadi Donatur</h4></a>
     </div>
 </header>
