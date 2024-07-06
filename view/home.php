@@ -1,5 +1,5 @@
 <?php
-    require_once "../handler/programHandler.php";
+    require_once "../handler/handler.php";
     require_once "../htdocs/connection.php";
 
     $pro = getProgram($Con);
