@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/view/css/artikel.css">
     <link rel="stylesheet" type="text/css" href="/view/css/viewartikel.css">
     <link rel="stylesheet" type="text/css" href="/view/css/profile.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/view/css/style.css">
     <link rel="stylesheet" type="text/css" href="/view/css/template.css">
 </head>
 
@@ -23,8 +23,12 @@
         <a href=home.php><h4>Home</h4></a>
         <a href="profile.php"><h4>Tentang Kami</h4></a>
         <a href="home.php/#Program"><h4>Program</h4></a>
-        <a href="/articles"><h4>Artikel</h4></a>
+        <a href="artikel.php"><h4>Artikel</h4></a>
         <h4>Gallery</h4>
         <a href="home.php/#regis"><h4>Jadi Donatur</h4></a>
     </div>
 </header>
+
+<a href="whatsapp://send?text=Hello&phone=+6281234344229" class="wa">
+    <img src="/images/png/whatsapp.png" alt="" width="50" height="50">
+</a>
