@@ -35,3 +35,20 @@ function viewArtikel($Con, $id){
 
     return $article;
 }
+
+function getPost($con)
+{
+    $q = "SELECT * FROM posts";
+
+    $posts =mysqli_query($con, $q);
+
+    return $posts;
+}
+
+function viewPost($Con, $id){
+    $q = "SELECT * FROM posts WHERE id = $id";
+
+    $post =mysqli_query($Con, $q);
+
+    return $post;
+}
