@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $query->bind_param("ssssss", $currentTime, $title, $target_file, $photoDesc, $description, $author);
 
             if ($query->execute()) {
-                header('Location: /view/home.php');
+                header('Location: ../annafilahphp/view/artikel.php');
                 exit();
             } else {
                 echo "Error: " . $query->error;
@@ -45,5 +45,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 
-    $Con->close();,
 }

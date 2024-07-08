@@ -4,13 +4,6 @@
 
     $pro = getProgram($Con);
     $prog = viewProgram($Con, 1);
-
-//    $idP = $_GET['idP'];
-//
-//    $progr = mysqli_fetch_array($prog);
-//    echo $progr['title'];
-
-
 ?>
 
 <?php include "../view/partials/top.php"; ?>

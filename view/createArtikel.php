@@ -17,7 +17,8 @@
 
         <div class="col">
             <label for="">Deskripsi</label>
-            <input type="text" class="txt" name="description" placeholder="desc artikel">
+            <textarea id="form1" name="description" placeholder="desc artikel" class="txt-f"></textarea>
+<!--            <input type="text" class="txt" name="description" placeholder="desc artikel">-->
         </div>
 
         <div class="col">

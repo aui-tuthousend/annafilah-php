@@ -20,11 +20,11 @@
         <p>Berdaya Bersama</p>
     </div>
     <div class="link row">
-        <a href=home.php><h4>Home</h4></a>
-        <a href="profile.php"><h4>Tentang Kami</h4></a>
+        <a href=../annafilahphp/view/home.php><h4>Home</h4></a>
+        <a href="../annafilahphp/view/profile.php"><h4>Tentang Kami</h4></a>
         <a href="home.php/#Program"><h4>Program</h4></a>
-        <a href="artikel.php"><h4>Artikel</h4></a>
-        <h4>Gallery</h4>
+        <a href="../annafilahphp/view/artikel.php"><h4>Artikel</h4></a>
+        <a href="../annafilahphp/view/galery.php"><h4>Galeri</h4></a>
         <a href="home.php/#regis"><h4>Jadi Donatur</h4></a>
     </div>
 </header>

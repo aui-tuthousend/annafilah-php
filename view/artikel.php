@@ -17,6 +17,7 @@ $article = getArtikel($Con);
             ?>
             <a href="viewArtikel.php?idP=<?=$art['id'] ?>" class="cover">
                 <img class="img" src="/<?php echo $art['image_path'] ?>" alt="<?php echo $art['photo_desc'] ?>">
+                <p><?php echo $art['photo_desc'] ?></p>
             </a>
             <?php
             }
